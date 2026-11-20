@@ -1,0 +1,9 @@
+#Desafio_ex030
+#Crie um programa que leia um número
+#inteiro e mostre na tela se ele é PAR ou ÍMPAR
+n= int(input("Insira um número: "))
+#if n/2==n//2:
+if  n%2 == 0:
+    print(f"O número {n} é PAR")
+else:
+    print(f"O número {n} é ÍMPAR")

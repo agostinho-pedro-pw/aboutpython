@@ -1,0 +1,22 @@
+#Arithmetric Operations
+#Adição (+)         |Potência (**)
+#Subtrção (-)       |Divisão (//)
+#Multiplicação(*)   |Resto (%)
+#Divisão(/)
+#-----Ordem de procedência
+
+#nome= input("Qual é o sei nome?")
+#print("Prazer em ti conhecer {:<20}!".format(nome))
+#print("Prazer em ti conhecer {:>20}!".format(nome))
+#print("Prazer em ti conhecer {:*^20}!".format(nome))
+num1= int(input("Digite um número:"))
+num2= int(input("Digite um outro número:"))
+som=(num1+num2)
+sub=(num1-num2)
+div=(num1/num2)
+mult=(num1*num2)
+div_int=(num1//num2)
+pot=(num1**num2)
+resq=(num1%num2)
+print("A soma {},\n a subtração {},\n a divisão {:.3f},\n a multiplicação {} ".format(som,sub,div,mult,),end=" ")
+print("A divisão inteira {} , e o resto {}".format(div_int,resq))
